@@ -1,0 +1,37 @@
+name: listmember
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.15.1
+  firebase_core_platform_interface: ^4.8.0
+  cloud_firestore: ^4.9.1
+  flutter_local_notifications: ^17.2.3
+  intl: ^0.19.0
+  fl_chart: ^0.40.0
+  firebase_auth: ^4.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/images/background.jpg
+    - assets/images/finance_image.png
+    
+  uses-material-design: true
